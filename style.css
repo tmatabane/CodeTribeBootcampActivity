@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 160%;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  /* overflow-x: hidden; */
+  /* padding-top: 20px; */
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  /* background-color: #111; */
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  /* background-color: red; */
+  height: 100%;
+}
+
+
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centeredLower {
+
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+
+#emphasies1 {
+  color: hsl(0, 36%, 70%);
+  font-size: 80px;
+}
+
+.emphasies2 {
+  color: hsl(0, 6%, 24%);
+  font-size: 80px;
+}
+
+#emphasies3 {
+  color: hsl(0, 36%, 70%);
+  font-size: 18px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  display: table;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.row {
+  display: table-row;
+  height: 50%;
+}
+
+.emailAddress {
+  border-color: hsl(0, 36%, 70%);
+  border-radius: 20px;
+  margin-left: 60px;
+  padding: 20px;
+  width: 300px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+}
+
+.btn {
+  border-color: hsl(0, 36%, 70%);
+  padding: 20px;
+  width: 100px;
+  border-radius: 20px;
+  background-image: linear-gradient(hsl(0, 100%, 98%),hsl(0, 93%, 68%), hsl(0, 36%, 70%));
+}
+
+.heading{
+  font-size: 40px;
+  text-align: center;
+}
